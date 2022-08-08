@@ -1,0 +1,46 @@
+.mainPane{    
+    -fx-background-size: 900 600;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30; 
+    -fx-background-color: white;
+}
+
+.paneBackground {
+   -fx-background-color: linear-gradient(to left, #8E2DE2,#4A00E0);   
+   -fx-background-radius: 30 0 0 30;
+   -fx-border-radius: 30;
+}
+
+
+.closeButton{
+    -fx-background-color: red;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;  
+}
+
+.buttonClick{       
+    -fx-background-radius: 50px;
+    -fx-border-radius: 100px;
+    -fx-background-color: linear-gradient(to left, #8E2DE2,#4A00E0);                        
+    transition: all ease 1s;
+}
+.buttonClick:hover{
+    transition: all ease 1s;
+    -fx-background-color: #3300cc;
+    color: black;
+}
+
+
+.passwordField {
+    -fx-background-radius: 50px;
+    -fx-border-radius: 100px;
+    -fx-border-width: 1px;
+    -fx-border-color: #333333;        
+}
+
+.loginField{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 100px;
+    -fx-border-width: 1px;
+    -fx-border-color: #333333;
+}

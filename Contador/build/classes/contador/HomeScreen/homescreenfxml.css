@@ -1,0 +1,35 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.itemList{    
+    -fx-border-radius: 80;
+    -fx-background-radius: 80;    
+}
+.itemList:hover{
+    -fx-background-color: #FFD500;
+    -fx-text-fill: white;
+}
+
+.itemListImage{
+    -fx-background-color: #8400ff;
+}
+
+.buttonSelect{
+    -fx-background-color: transparent;        
+}
+
+.imageBacground{
+    -fx-background-color: linear-gradient(to left, #8E2DE2,#4A00E0);   
+}
+
+.vboxStyle{
+    -fx-border-color: #8E2DE2;
+    -fx-border-width: 0 2 0 0;
+    -fx-background-color: #EBEBEB;
+}
+
